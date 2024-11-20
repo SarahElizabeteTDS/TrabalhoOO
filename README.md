@@ -36,7 +36,7 @@ Este é um sistema de gerenciamento de biblioteca simples desenvolvido em PHP. O
 
 ## Autor
 
-Feito por [Seu Nome](https://github.com/seu-usuario).
+Feito por [Seu Nome](https://github.com/SarahElizabeteTDS).
 
 ---
 
