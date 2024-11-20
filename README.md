@@ -1,2 +1,5 @@
-Parcialmente feito, preciso fazer ajustes para a parte do bibliotecario funcionar...
-Debugar o codigo todo também, só isso.
+Parte do bibliotecario não esta funcionanto totalmente
+Terminar de fazer os testes amanhã
+Fazer as verificacoes necessarias
+
+De resto, tudo filé!
