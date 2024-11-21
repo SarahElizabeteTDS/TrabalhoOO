@@ -53,7 +53,8 @@ class Livro
     }
 
     /*
-    public function calcularPrazoRenovar(){
+    public function calcularPrazoRenovar()
+    {
         if ($this->dataEmprestimo){
             $prazo = clone $this->dataEmprestimo; //referencia do comando https://www.php.net/manual/pt_BR/language.oop5.cloning.php
             //basicamente, cria uma variavel com as mesmas propriedades, literalemente um clone
