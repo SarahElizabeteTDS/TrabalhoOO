@@ -52,7 +52,6 @@ class Livro
         $this->dataEmprestimo = null;
     }
 
-    /*
     public function calcularPrazoRenovar()
     {
         if ($this->dataEmprestimo){
@@ -63,8 +62,7 @@ class Livro
         }
         return 'Não emprestado.';
     }
-    */
-    //infelizmente não deu tempo de implementar esse metodo, mas a ideia seria do aluno poder renovar o livro.
+
 
     //gets e setts
     public function getTitulo(): string
@@ -151,3 +149,4 @@ class Livro
         return $this;
     }
 }
+
