@@ -17,23 +17,22 @@ class Pessoa implements IPessoa
         print "*         LISTA DE TODOS OS LIVROS      *\n";
         print "*****************************************\n";
 
-        // Verificar se há livros na biblioteca
+        // ve se tem livros no array
         if (empty($livros)) 
         {
             print "Não há livros cadastrados na biblioteca.\n";
             return;
         }
 
-        // Itera sobre todos os livros
         foreach ($livros as $livro) 
         {
-            // Define o status de emprestado ou disponível
+            // define se ta emprestado ou disponivel
             $statusEmprestado = ($livro->isDisponivel()) ? "" : "*EMPRESTADO*";
             
-            // Exibe a capa do livro
+            // capa do livro
             print $livro->getCapa($livro->getTitulo(), $livro->getAutor());
 
-            // Exibe as informações do livro
+            // infos do livro
             print "Título: " . $livro->getTitulo() . "\n";
             print "Autor: " . $livro->getAutor() . "\n";
             print "Código: " . $livro->getCodigoIndividual() . "\n";
